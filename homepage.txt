@@ -1,0 +1,39 @@
+class Tamilnadu2
+{
+static String capital="chennai";
+public TamilNadu(String var)
+{
+	super(var);
+}
+
+public void speakLanguage()
+{
+System.out.println("speaking tamizh");
+}
+public void eat()
+{
+System.out.println("eating rice meals");
+}
+public void dress()
+{
+System.out.println("dressing saree and dhostie");
+}
+ public void cultivate()
+{
+System.out.println("rice and sugarcan cultivation");
+}
+public void livingStyle()
+{System.out.println("above average development");
+} 
+public static void main(String[]args)
+
+
+{System.out.println("capital of India"+India.capital);
+ System.out.println("capital of TamilNadu"+TamilNadu.capital);
+ SouthIndia si=new TamilNadu("modi ji");
+ si.cultivate();
+ si.dress();
+ si.eat();
+ si.LivingStyle();
+}
+}
